@@ -26,23 +26,23 @@ Managing household expenses (e.g. rent, groceries) with roommates is difficult a
 **Core Features**
 
 1)	When logged in (assuming the user already registered), shows an overview of the user’s expenses – “dashboard”
-a.	Upcoming bill due date
-b.	How much is owing and to who 
-c.	Summary of all the expenses
-d.	A form to add a new bill 
-e.	Name of the expense
-f..	Description of expense
-g.	How much it is (already divided up)
-h.	Due date 
-i.	Name of the user paid (payer)
-j.	Name of the users being split with (“owers”)
+- Upcoming bill due date
+- How much is owing and to who 
+- Summary of all the expenses
+- A form to add a new bill 
+- Name of the expense
+- Description of expense
+- How much it is (already divided up)
+- Due date 
+- Name of the user paid (payer)
+- Name of the users being split with (“owers”)
 
 **Stretch Features**
 
 1)	Register/Login system – Auth0
 2)	Notification system 
-a.	Sends out an email/text at the end of every month to remind users of what’s owing (using twilio for text)
-b.	Sends out an email/text a week before a bill (e.g. rent) is due 
+- Sends out an email/text at the end of every month to remind users of what’s owing (using twilio for text)
+- Sends out an email/text a week before a bill (e.g. rent) is due 
 c.	Ability to set a “status” (e.g. sleeping, busy, bored, etc)
 3)	A direct payment system
 4)	Chat system
