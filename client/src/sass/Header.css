@@ -1,0 +1,91 @@
+.header__content {
+  background: linear-gradient(9deg, #EEF4F6 45%, #fff 36%);
+  height: 30vh;
+  padding: 0 1em;
+}
+
+.header__content span {
+  font-size: 3.0rem;
+  width: 90%;
+}
+
+.header__content--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2em 1.5em 4.5em 1.5em;
+}
+
+.header__content--logo h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgba(61, 86, 117, 0.87);
+}
+
+.header__content--profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header__content--profile .profile__username {
+  padding-right: 1em;
+}
+
+.profile__menu span {
+  color: rgba(61, 86, 117, 0.87);
+  position: relative;
+  cursor: pointer;
+}
+
+.profile__menu span:hover {
+  color: white;
+}
+
+.profile__menu ul.menu__list {
+  cursor: pointer;
+  display: block;
+  background: lightgray;
+  position: absolute;
+  right: 9.5%;
+  width: 8%;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.profile__menu li:hover {
+  background: white;
+}
+
+.header__avatar {
+  width: 5vw;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.secondary__header {
+  padding-left: 1.5em;
+}
+
+.dashboard__heading {
+  display: inline;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: rgba(51, 81, 117, 0.9);
+  border-bottom: 2px solid #456182;
+}
+/*# sourceMappingURL=Header.css.map */

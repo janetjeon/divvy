@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,4CAA4C;CAC3D",
+    "sources": [
+        "ExpenseItem.scss"
+    ],
+    "names": [],
+    "file": "ExpenseItem.css"
+}

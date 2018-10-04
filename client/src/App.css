@@ -1,0 +1,36 @@
+.content__wrapper {
+  height: 100%;
+  background: #bbd3dc40;
+}
+
+.main__content--wrapper {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.main__content--navbar {
+  width: 10%;
+  background: white;
+}
+
+.main__content--dashboard {
+  width: 90%;
+}
+
+@media(max-width: 500px) {
+  .main__content--wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main__content--dashboard {
+    width: 100%;
+  }
+  .main__content--navbar {
+    width: 100%;
+  }
+}
+
+
+a:hover{
+  text-decoration: none;
+}

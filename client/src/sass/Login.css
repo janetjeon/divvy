@@ -1,0 +1,30 @@
+.login__content {
+  height: 100vh;
+  background: #076585;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#076585));
+  background: linear-gradient(to bottom, #fff, #076585);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login__content--logo {
+  font-weight: bold;
+  text-shadow: 4px 2px 3px white;
+  font-size: 9rem;
+  font-weight: 700;
+}
+
+.login__content--logo:hover {
+  color: white;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,61 @@
+
+.login__content {
+    height: 100vh;
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // form {
+    //     display: flex;
+    //     flex-direction: column;
+    //     width: 100%;
+    //     input {
+    //         width: 100%;
+    //         border: 0;
+    //         background: transparent;
+    //         border-bottom: 2px solid #ffffff85;
+    //         font-size: 2.0rem;
+    //         color: #fff;
+    //     }
+    //     input:hover {
+    //         border-bottom: 2px solid #fff;
+    //     }
+    //     input:focus {
+    //         outline: none;
+    //     }
+    //     ::placeholder {
+    //         color: #ffffff85;
+    //         font-size: 1.6rem;
+    //     }
+    // }
+}
+
+// .login__content--wrapper {
+//     height: 30vh;
+//     button {
+//         background: #fff;
+//         border-radius: 5px;
+//         border: 0;
+//         box-shadow: 1px 2px 2px grey;
+//     }
+//     button:hover {
+//         background: #cecece;
+//     }
+//     h1 {
+//         font-weight: 700;
+//     }
+// }
+
+.login__content--logo {
+    font-weight: bold;
+    text-shadow: 4px 2px 3px white;
+    font-size: 9rem;
+    font-weight: 700;
+}
+.login__content--logo:hover {
+    color: white;
+}
+

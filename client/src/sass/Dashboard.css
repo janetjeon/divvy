@@ -1,0 +1,55 @@
+#content__expenses--payable,
+#content__expenses--receivable {
+  padding-bottom: 3em;
+}
+
+#content__expenses--payable h3,
+#content__expenses--receivable h3 {
+  padding: 0em 1em 0.5em 1em;
+  color: #7188a1;
+  font-weight: 700;
+}
+
+#content__expenses--receivable {
+  padding-bottom: 8em;
+}
+
+.main__content--overview {
+  padding-top: 3em;
+  margin: 0 1em 0 1.5em;
+}
+
+.addNewExpense {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-bottom: 1em;
+}
+
+.dashboard__addExpense a {
+  margin-right: 1em;
+  padding: 0.5em;
+  background: #7188a1;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.dashboard__addExpense a:hover {
+  background: #7188a170;
+}
+
+@media (max-width: 500px) {
+  .dashboard__uploadbtn--hide {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Dashboard.css.map */

@@ -1,0 +1,133 @@
+.expenses__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.expenses__content--left h4 {
+  padding: 0.7em 0;
+  letter-spacing: 1.2px;
+  font-size: 1.7rem;
+}
+
+.expenses__content--left h4:hover {
+  color: #27708c;
+}
+
+.expenses__content--details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.expenses__content--details p {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0 0.5em;
+}
+
+.expenses__content--category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+}
+
+.expenses__content--category img {
+  width: 2vw;
+  padding-right: 0.3em;
+}
+
+.expenses__content--category span {
+  text-transform: uppercase;
+}
+
+.pay_to_firstname,
+.receive_from_firstname {
+  font-weight: 700;
+}
+
+.expenses__content--wrapper {
+  width: 100%;
+  margin: 0.1em 0.7em;
+  background: #ffffffba;
+  border-radius: 2px;
+  padding: 1.5em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  border-left: 5px solid;
+  -webkit-box-shadow: 2px 3px 7px lightgrey;
+          box-shadow: 2px 3px 7px lightgrey;
+}
+
+.expenses__content--wrapper a {
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+}
+
+.expenses__content--right {
+  margin-left: 0.3em;
+  padding: 1em 0.3em 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 1px solid #00000054;
+  width: 30%;
+}
+
+.expenses__content--right span {
+  padding: 0 0.5em;
+}
+
+.expenses__content--right h4 {
+  font-weight: 700;
+}
+
+.pay_to_firstname,
+.receive_from_firstname {
+  display: inline-block;
+}
+
+.pay_to_firstname:not(:last-child)::after,
+.receive_from_firstname:not(:last-child)::after {
+  display: inline-block;
+  white-space: pre;
+  content: "and";
+}
+
+.receive_from_firstname {
+  margin-right: 0.2em;
+}
+/*# sourceMappingURL=ExpensesPayableReceivable.css.map */
