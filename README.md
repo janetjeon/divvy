@@ -1,19 +1,24 @@
 # Divvy
 
+###### please note the navigation bar is a placeholder 
+
 **To Start**
 ```
 - clone
 - npm install to install all the node modules
 - requires 3 tabs on terminal: back-end, server, front-end
-# server
-* cd into 'divvy' folder
-* in terminal, type: mongod --dbpath data/db
-# back-end
-* cd into 'divvy' folder
-* in terminal, type: node.js
-# front-end
-* cd into 'client' folder in the divvy folder
-* in terminal, type: npm start
+
+To start server:
+- cd into 'divvy' folder
+- in terminal, type: mongod --dbpath data/db
+
+Back-end:
+- cd into 'divvy' folder
+- in terminal, type: node.js
+
+Front-end:
+- cd into 'client' folder in the divvy folder
+- in terminal, type: npm start
 ```
 
 
