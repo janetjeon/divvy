@@ -40,9 +40,9 @@ Managing household expenses (e.g. rent, groceries) with roommates is difficult a
 - Name of the users being split with (“owers”)
 
 
-![alt text](images/website.png)
+![picture](images/website.png)
 
-![alt text](images/phone.png)
+![picture](images/phone.png)
 
 
 **Stretch Features (to be added)**
