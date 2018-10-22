@@ -1,4 +1,4 @@
-#Divvy
+# Divvy
 
 **To Start**
 - clone
@@ -19,9 +19,11 @@
 
 Keep tabs on your household expenses with your roommates in a hassle-free and interactive way.  
 
+
 **Description**
 
 Managing household expenses (e.g. rent, groceries) with roommates is difficult and can get complicated. Divvy solves this issue by providing a space for roommates to communicate with each other to ‘divvy up’ the expenses in a hassle-free and interactive way. Upon log-in, the user is able to see an overview of the expenses and keep track of who owes what and any upcoming expenses. Divvy will send out a reminder at the end of each month of how much is owing (if there is no due date), and for any “future expenses”, it will send out a reminder a week before its due.
+
 
 **Core Features**
 
@@ -37,13 +39,18 @@ Managing household expenses (e.g. rent, groceries) with roommates is difficult a
 - Name of the user paid (payer)
 - Name of the users being split with (“owers”)
 
-**Stretch Features**
+
+![alt text](images/website.png)
+
+![alt text](images/phone.png)
+
+
+**Stretch Features (to be added)**
 
 1)	Register/Login system – Auth0
 2)	Notification system 
 - Sends out an email/text at the end of every month to remind users of what’s owing (using twilio for text)
 - Sends out an email/text a week before a bill (e.g. rent) is due 
-c.	Ability to set a “status” (e.g. sleeping, busy, bored, etc)
 3)	A direct payment system
 4)	Chat system
 5)	Ability to add/delete users & edit/delete expenses
@@ -65,8 +72,9 @@ Backend: Node/Express server, MongoDB (database)
 The data is from the user’s input when adding a new bill. The form input will require the name of the item paid, price, payer, payee. 
 
 
-**NOTE**
+## NOTE
 - This is still a work-in-progress. 
-# Next steps:
+### Next steps:
 - Will be making the web application more responsive and accessible
 - Will implement a notification system using node agenda and sendgrid
+
