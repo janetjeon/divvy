@@ -7,6 +7,9 @@ const moment  = require('moment');
 const Expense = require('./models/Expense');
 const sgMail  = require('@sendgrid/mail');
 
+
+
+
 // node agenda stuff = CURRENTLY IN PROGRESS 
 const Agenda = require('agenda');
 const mongoConnectionString = 'mongodb://127.0.0.1:27017/agenda';
@@ -101,6 +104,8 @@ const db = mongoose.connection;
 const expenseRouter  = require('./routes/ExpenseRoute');
 const userRouter = require('./routes/UserRoute');
 
+
+app.use(express.static('./client/build')); 
 app.use(express.json()); //if someone sends json in post body, this middleware fn will read it and turn it into the right thing
 app.use(express.urlencoded({extended: false})); //we told the express server to listen to urlencoded so we have to use this when using postman
 app.use(cors()); //this sets it up so our server has that access-control-allow-origin
