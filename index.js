@@ -28,15 +28,15 @@ Expense.find({
   console.log(expenses);
 })
 // this is to test to see if node agenda is working 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-const msg = {
-  to: 'janetjeon@hotmail.com',
-  from: 'test@example.com',
-  subject: 'Sending with SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
-sgMail.send(msg);
+// sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+// const msg = {
+//   to: 'janetjeon@hotmail.com',
+//   from: 'test@example.com',
+//   subject: 'Sending with SendGrid is Fun',
+//   text: 'and easy to do anywhere, even with Node.js',
+//   html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+// };
+// sgMail.send(msg);
 
 // mongoose
 const mongoose = require('mongoose'); // requiring mongoose

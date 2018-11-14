@@ -34,7 +34,7 @@ class Header extends Component {
       <div className="header__content">
         <div className="header__content--wrapper">
           <div className="header__content--logo">
-            <h1>d/vvy.</h1>
+            <h1>divvy.</h1>
           </div>
           <div className="header__content--profile">
             <div className="profile__username"><p>Hi, {userName}</p></div>
