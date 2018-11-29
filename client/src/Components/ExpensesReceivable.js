@@ -65,7 +65,7 @@ class ExpensesReceivable extends Component {
           {/* </Link> */}
 
           <div className="expenses__content--right" style={{color: color}}>
-            <h4><span>$</span> {(amount / divvy).toFixed(2)} <span class="pp">/person</span></h4>
+            <h4><span>$</span> {(amount / divvy).toFixed(2)} <span class="per-person">/person</span></h4>
           </div>
         </div>
       </div>

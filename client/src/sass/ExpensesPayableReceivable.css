@@ -130,4 +130,10 @@
 .receive_from_firstname {
   margin-right: 0.2em;
 }
+
+@media (max-width: 569px) {
+  .per-person {
+    display: none;
+  }
+}
 /*# sourceMappingURL=ExpensesPayableReceivable.css.map */
