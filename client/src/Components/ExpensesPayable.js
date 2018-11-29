@@ -53,7 +53,7 @@ class ExpensesPayable extends Component {
             </div>
 
           <div className="expenses__content--right" style={{color: color}}>
-            <h4><span>$</span> {(amount / divvy).toFixed(2)}</h4>
+            <h4><span>$</span> {(amount / divvy).toFixed(2)} /person</h4>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ class App extends Component {
     .then(resp => resp.json())
     .then(userList => {this.setState({
       users: userList, 
-      currentUser: userList[0] //because i don't have an auth system, hardcoding the user
+      currentUser: userList[1] //because i don't have an auth system, hardcoding the user
     }) 
   })
 
