@@ -38,7 +38,7 @@ class Header extends Component {
           </div>
           <div className="header__content--profile">
             <div className="profile__username"><p>Hi, {userName}</p></div>
-            <div className="profile__menu">
+            {/* <div className="profile__menu">
               <span onClick={this.openMenu}>&#8964;</span>
               {
                 this.state.showMenu ? 
@@ -49,7 +49,7 @@ class Header extends Component {
                   </ul>
                 ) : (null)
               }
-            </div>
+            </div> */}
             <div className="profile__avatar"><img className="header__avatar" src={`${url}`} alt="profile avatar" /> </div>
           </div>
         </div>
