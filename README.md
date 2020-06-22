@@ -1,6 +1,6 @@
 # Divvy
-http://ec2-34-215-183-175.us-west-2.compute.amazonaws.com/dashboard
-
+ec2-34-215-183-175.us-west-2.compute.amazonaws.com
+Public IP: 34.215.183.175
 
 
 ###### please note the navigation bar is a placeholder 
