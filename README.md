@@ -1,4 +1,7 @@
 # Divvy
+http://ec2-34-215-183-175.us-west-2.compute.amazonaws.com/dashboard
+
+
 
 ###### please note the navigation bar is a placeholder 
 
